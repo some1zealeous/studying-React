@@ -1,43 +1,9 @@
-# this repo is my learning tracker for React.  
-> Starting with basic react Architecture  
+# 🎧 this repo is my learning tracker for React  
 
-``` javascript
-const componentName = () => {
-    return (
-        <>
-        <h1>User Content</h1>
-        </>
-    )
-}
-```
+## ↪ Wednesday, 24 September 2025    
+### > react architecture & JSX  
+### > javaScript advance fundamentals  
+### > ES6 features  
+### > Components | Props | State | Effect
 
-> Architecture Implementation
-
-``` javascript
-import React from "react";
-
-const greetings = () => {
-    const userName = "SomeOne";
-
-    return (
-        <>
-        <h1>Hello, {userName}</h1>
-        <p>Welcome to React Learning Path</p>
-        </>
-    );
-};
-
-export const UserCard = () => {
-  return (
-    <div className="user-card">
-      <img src="/avatar.jpg" alt="User" />
-      <h3>John Doe</h3>
-      <p>Web Developer</p>
-    </div>
-  );
-};
-
-
-export default greetings;
-```
-
+# Project 1: `custom form validation`
