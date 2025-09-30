@@ -1,12 +1,13 @@
-import Table from "./Table";
-
 function DisplayInfo() {
-  const human = 'SomeOne';
+
+  const name = 'SomeOne';
   return (
     <>
-    <h1>Hi, {human}!</h1>
+    <h1>Hi, {name}!</h1>
     <p>Grab your coffee, and Let's get Started!</p>
-    <Table />
+
+    <label htmlFor="search">Search: </label>
+    <input type="text" id="search" />
     </>
   )
 };

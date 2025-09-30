@@ -4,30 +4,13 @@
 }
 
 body {
-    height: 100vh;
     background-color: #020e0e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: antiquewhite;
-}
-
-p {
-    font-size: 1.5em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+h1, p {
     color: antiquewhite;
 }
 
 label {
     color: antiquewhite;
-    font-family: fantasy;
-    font-size: 1.5em;
-}
-
-fieldset {
-    width: 100%;
 }
