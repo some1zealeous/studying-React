@@ -15,3 +15,8 @@ h1, p, h2 {
 label {
     color: antiquewhite;
 }
+
+li {
+    font-size: xx-large;
+    color: blanchedalmond;
+}
