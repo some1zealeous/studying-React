@@ -1,3 +1,14 @@
+@font-face {
+	font-family: 'Skyscapers';
+	src: url('//2ttf.com/webfont/6IF8GLA3aiM/webfont.ttf') format('truetype');
+}
+
+/* sample using the font */
+body{
+	font-family: 'Skyscapers';
+}
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
