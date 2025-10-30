@@ -3,9 +3,16 @@
 	src: url('//2ttf.com/webfont/6IF8GLA3aiM/webfont.ttf') format('truetype');
 }
 
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url(assets/Fantom\ Fusion.otf);
+  font-weight: normal;
+  font-style: normal;
+}
 /* sample using the font */
 body{
-	font-family: 'Skyscapers';
+	font-family: 'MyCustomFont';
 }
 
 
