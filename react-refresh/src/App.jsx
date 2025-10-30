@@ -2,6 +2,15 @@ function Greeting(props) {
   return <h1>Hello, {props.name}</h1>;
 }
 
+function UserCard({ name, profession }) {
+  return(
+    <div>
+      <h2>{ name }</h2>
+      <p>{ profession }</p>
+    </div>
+  )
+}
+
 function App() {
   const userName = "Md Kaif";
   return (
@@ -12,6 +21,8 @@ function App() {
       <Greeting name='Kaif' />
       <Greeting name='Rehan' />
       <Greeting name='Addya' />
+      
+      <UserCard name="Anshu" profession="Data Entry" />
     </div>
   );
 }
